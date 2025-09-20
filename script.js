@@ -18,7 +18,7 @@ for (let select of dropdowns) {
     }
     select.addEventListener("change", (evt) => {
         updateFlag(evt.target);
-        msg.innerText = "EXCHANGE dbae"
+        msg.innerText = "click EXCHANGE "
     })
 }
 

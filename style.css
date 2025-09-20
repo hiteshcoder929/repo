@@ -10,10 +10,17 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    border: rgba(107, 112, 92, 0.23) dotted 9px;
+    border-radius: 5px;
 }
 
 h1 {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+    background-color: #FFE8D6;
+    box-shadow: 0px 0px 10px 8px #CB997E;
+    padding:10px;
+    border-radius: 20px;
+    border:#10002B solid 3px;
 }
 
 .container {
@@ -25,6 +32,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 8px #6B705C;
 }
 
 input,
@@ -47,6 +55,7 @@ button {
 .enter {
     font-size: 1.25rem;
     padding: 20px;
+    text-rendering: initial;
 }
 
 .amount {
@@ -64,6 +73,7 @@ select{
     position:relative;
     right:10px;
     width:55px;
+     box-shadow: 0px 0px 3px 3px #6B705C;
 }
 image{
     padding-left:10px;
@@ -75,6 +85,8 @@ image{
     flex-direction: row;
     border: black solid 0.5px;
     border-radius: 10px;
+     box-shadow:inset 0px 0px 7px 4px #6B705C;
+     background-color: #A5A58D;
 }
 
 .icon {
@@ -88,19 +100,29 @@ image{
 }
 .msg {
     font-size: 1.25rem;
-    padding: 20px;
+    margin:20px;
     font-family: serif;
+    padding:2px;
+    color:#10002B;
+    background-color: #B7B7A4;
+    border-radius: 10px;
+    box-shadow:inset 0px 0px 8px 4px #6B705C ;
+    border:#10002B dotted 1px;
+
 }
 button {
     background-color: #6B705C;
     height: 50px;
     font-size: 1.25rem;
     border:black solid 2px;
-    color:white;
+    color:#FFE8D6;
     cursor: pointer;
     width:90%;
+    margin:20px;
+     box-shadow: 0px 0px 10px 4px #6B705C;
 }
 .selector{
         width:30%;
     height: 30%;
+    
 }
