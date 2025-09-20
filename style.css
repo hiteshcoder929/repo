@@ -18,8 +18,8 @@ h1 {
 
 .container {
     background-color: #A5A58D;
-    width: 50%;
-    height: 50%;
+    width:  450px;
+    height: 400px;
     border: black solid 2px;
     justify-content: center;
     align-items: center;
