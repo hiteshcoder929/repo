@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #B7B7A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    padding-bottom: 100px;
+}
+
+.container {
+    background-color: #A5A58D;
+    width: 50%;
+    height: 50%;
+    border: black solid 2px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+input,
+select,
+button {
+    width: 90%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.enter {
+    font-size: 1.25rem;
+    padding: 20px;
+}
+
+.amount {
+    height: 30px;
+    font-size: 1.25rem;
+    padding: 5px;
+}
+.from,
+.to {
+    font-size: 1.25rem;
+    padding: 15px;
+    font-family:serif;
+}
+select{
+    position:relative;
+    right:10px;
+    width:50%;
+}
+image{
+    padding-left:10px;
+}
+.dp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: black solid 0.5px;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    padding: 20px;
+    position: relative;
+    top: 25px;
+}
+.msg {
+    font-size: 1.25rem;
+    padding: 20px;
+    font-family: serif;
+}
+button {
+    background-color: #6B705C;
+    height: 50px;
+    font-size: 1.25rem;
+    border:black solid 2px;
+    color:white;
+    cursor: pointer;
+    width:80%;
+}
