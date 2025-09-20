@@ -63,7 +63,7 @@ button {
 select{
     position:relative;
     right:10px;
-    width:50%;
+    width:55px;
 }
 image{
     padding-left:10px;
@@ -79,9 +79,12 @@ image{
 
 .icon {
     font-size: 1.5rem;
-    padding: 20px;
     position: relative;
     top: 25px;
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .msg {
     font-size: 1.25rem;
@@ -95,5 +98,9 @@ button {
     border:black solid 2px;
     color:white;
     cursor: pointer;
-    width:80%;
+    width:90%;
+}
+.selector{
+        width:30%;
+    height: 30%;
 }
